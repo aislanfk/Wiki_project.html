@@ -1,0 +1,124 @@
+
+        body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    background-color: #f8f9fa;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+
+}
+figure {
+    text-align: center;
+}
+#search {
+    position: relative;
+    left: 40px ;
+    bottom: 55px ;
+    height: 25px ;
+    width: 600px ;
+    border-color: #0000001e;
+    border-width: 1px;
+}
+#register {
+    position: relative ;
+    left: 820px ;
+    bottom: 92px ;
+    color: blue;
+    font-size: small;
+}
+#title {
+    position: relative;
+    top: 5px ;
+    font-family: sans-serif;
+}
+p {
+    margin: 0.5em;
+}
+body {
+    background-color: #f8f9fa;
+    color: black;
+    font-family: sans-serif;
+    font-size: calc(1em * 0.875);
+    margin: 0 auto;
+
+}
+code {
+    border-radius: 10%;
+    background-color: #f3f3f3;
+    border: 1px solid #d6d5d5;
+    color:black;
+    font-size: large;
+}
+table {
+    border: 1px solid #f8f9fa;
+}
+span.doctype {
+    color: #BC7A00;
+}
+div.ltr {
+    background-color:#eeeded
+}
+span.en {
+    color: #008000;
+    font-weight: bold;
+}
+span.ng {
+    color: #7D9029
+}
+span.ed {
+    color: #BA2121;
+}
+table.code_table {
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+    padding: 0.2em 0.4em;
+    margin:2em 2em;
+    border-spacing: 10px;
+}
+th.codes_h {
+    background-color: #d1d6db;
+    border: 1px solid #a2a9b1;
+}
+td.cod {
+    border: 1px solid  #a2a9b1;
+    background-color:  #e9eaec;
+}
+#menu {
+    max-height: 75vh;
+    padding: 20px 12px 20px 27px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    font-size:12px;
+    
+}
